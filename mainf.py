@@ -1,1 +1,2 @@
-prin("hello")
+print("hello")
+print('Hello, evxkd')
