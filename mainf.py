@@ -1,10 +1,5 @@
-print("hello")
-print('Hello, evxkd')
-n, m = [int(x)for x in input().split()]
-a = []
+from pygame import*
 
-for i in range(n):
-  x = [int(x)for x in input().split()]
-  a.append(x)
- 
-print(a) 
+okno = display.set_mode((500,400))
+clock = time.Clock()
+game = True
